@@ -29,7 +29,7 @@ const tooltip = d3.select("body")
   .style("opacity", 0);
 
 // Load CSV data
-d3.csv("data/Ex5_TV_energy_Allsizes_byScreenType.csv").then(data => {
+d3.csv("Data/Ex5_TV_energy_Allsizes_byScreenType.csv").then(data => {
   
     // Convert numeric values
     data.forEach(d => {

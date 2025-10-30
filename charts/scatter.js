@@ -9,7 +9,7 @@ const scatterSvg = d3.select("#scatter")
   .append("g")
     .attr("transform", `translate(${scatterMargin.left},${scatterMargin.top})`);
 
-d3.csv("data/Ex5_TV_energy.csv").then(data => {
+d3.csv("Data/Ex5_TV_energy.csv").then(data => {
   // Convert numeric values
   data.forEach(d => {
     d.screensize = +d.screensize;

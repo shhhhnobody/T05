@@ -27,7 +27,7 @@ const barTooltip = d3.select("body")
 .style("opacity", 0);
 
 // Load CSV
-d3.csv("data/Ex5_TV_energy_55inchtv_byScreenType.csv").then(data => {
+d3.csv("Data/Ex5_TV_energy_55inchtv_byScreenType.csv").then(data => {
 
 data.forEach(d => {
     d.Mean = +d["Mean(Labelled energy consumption (kWh/year))"];

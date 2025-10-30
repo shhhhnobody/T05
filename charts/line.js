@@ -16,7 +16,7 @@ const innerHeightL = lineHeight - lineMargin.top - lineMargin.bottom;
 
 // Load CSV
 //d3.csv("data/Ex5_ARE_Spot_Prices(nomissingvalue).csv").then(data => {
-d3.csv("data/Ex5_ARE_Spot_Prices.csv").then(data => {
+d3.csv("Data/Ex5_ARE_Spot_Prices.csv").then(data => {
   data.forEach(d => {
     d.Year = +d.Year;
     
