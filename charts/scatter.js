@@ -1,5 +1,5 @@
 const scatterMargin = { top: 30, right: 30, bottom: 50, left: 60 },
-      scatterWidth = 450 - scatterMargin.left - scatterMargin.right,
+      scatterWidth = 600 - scatterMargin.left - scatterMargin.right,
       scatterHeight = 400 - scatterMargin.top - scatterMargin.bottom;
 
 const scatterSvg = d3.select("#scatter")

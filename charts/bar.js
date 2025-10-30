@@ -1,5 +1,5 @@
 // Set dimensions
-const barWidth = 400,
+const barWidth = 600,
     barHeight = 400,
     barMargin = {top: 40, right: 20, bottom: 80, left: 60};
 

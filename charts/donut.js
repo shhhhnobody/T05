@@ -1,5 +1,5 @@
 // Set dimensions
-const width = 400,
+const width = 600,
       height = 400,
       margin = 40;
 
